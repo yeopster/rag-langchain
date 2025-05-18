@@ -16,3 +16,5 @@ This project demonstrates expertise in natural language processing (NLP), vector
 https://rag-langchain-av7xqfe4nbqpnrx3btbtpu.streamlit.app/
 
 ## Project Structure
+'''bash
+rag-langchain/ ├── data/                    # Store PDFs and processed data │   ├── processed/           # Extracted text files │   └── vector_store/        # FAISS vector store ├── scripts/                 # Processing scripts │   ├── extract_text.py      # Extract text from PDFs │   ├── chunk_documents.py   # Split text into chunks │   ├── create_vector_store.py # Create FAISS vector store │   └── rag_pipeline.py      # RAG pipeline with LangChain ├── app.py                   # Streamlit web interface ├── requirements.txt         # Python dependencies ├── .gitignore               # Git ignore file └── README.md                # Project documentation
