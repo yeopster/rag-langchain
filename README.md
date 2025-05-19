@@ -18,11 +18,12 @@ https://rag-langchain-av7xqfe4nbqpnrx3btbtpu.streamlit.app/
 ## Project Structure
 ```bash
 rag-langchain/
-├── data/                   # Folder for input/output data
-├── docs/                   # Documentation files
-├── src/                    # Source code for loading, processing, querying
-│   ├── loader.py
-│   └── query_engine.py
-├── app.py                  # Streamlit or main script
-├── requirements.txt        # Python dependencies
-└── README.md               # Project overview
+├── data/                       # Folder for input/output data                 
+├── scripts/                    # Source code for loading, processing, querying
+│   ├── chunk_documents.py
+│   ├── extract_text.py
+│   ├── rag_pipeline.py
+│   └── create_vector_store.py
+├── app.py                      # Streamlit or main script
+├── requirements.txt            # Python dependencies
+└── README.md                   # Project overview
